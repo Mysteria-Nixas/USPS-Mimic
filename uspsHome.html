@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>uspsMockUp</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="fonts/css/all.css" />
+    <link type="text/css" href="css/bootstrap.css" rel="stylesheet" async>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="uspsStyleSheet.css" />
+
+
+    <script src="fonts/js/all.js"></script>
+</head>
+<body>
+    <div class="fullPage">
+        <div class="topNav">
+            <ul class="navLink">
+                <li class="navLinkPic"><img src="uspsImages/language.jpg" /></li>
+                <li class="navLinkText">English</li>
+                <li class="navLinkPic"><img src="uspsImages/local.jpg" /></li>
+                <li class="navLinkText">Location</li>
+                <li class="navLinkPic"><img src="uspsImages/support.jpg" /></li>
+                <li class="navLinkText">support</li>
+                <li class="navLinkPic"><img src="uspsImages/infoDeliv.jpg" /></li>
+                <li class="navLinkText">Informed Devlivery</li>
+                <li class="navLinkText">Register/Sign In</li>
+            </ul>
+        </div>
+        <div class="uspsLogoLine">
+            <ul id="logoList">
+                <li class="logoListPic"><img src="uspsImages/uspsLogo.jpg" /></li>
+                <li class="quickTools" id="redLine">Quick Tools</li>
+                <li class="logoListText">Mail & Ship</li>
+                <li class="logoListText">Track & Manages</li>
+                <li class="logoListText">Postal Store</li>
+                <li class="logoListText">Business</li>
+                <li class="logoListText">International</li>
+                <li class="logoListText">Help</li>
+                <li class="logoListSearch"> <span class="fa fa-search"></span> </li>
+                <!--<li class="logoListSearch"><img src="uspsImages/search.jpg" /></li>-->
+            </ul>
+        </div>
+        <div class="backgroundImageWithMan">
+            <div class="manImageText">
+                <br />
+                <h1>
+                    Check mail<br />
+                    outside the box
+                </h1> <br />
+                <p>
+                    Sign up for Informed Delivery<span id="smbl">&#174</span> to see what
+                    mail is coming before it<br /> arrives.*
+                </p><br />
+                <input id="signUp" type="button" value="Sign Up For Free" /> <br />
+                <p2>
+                    <br />
+                    *Informed Delivery dashboard, mobil app, and email notifications
+                    include grayscale images of letter-sized mail<br /> and some color images.
+                </p2>
+            </div>
+        </div>
+        <form id="mailingForm" name="uspsForm" method="post" action="post">
+            <div class="trackMailRow">
+                <div class="trackMailColumn trkMail">
+                    <h1 id="track"><span class="imgageIcon"><img src="uspsImages/trackPackage.jpg" /></span>Track A Package</h1>
+                    <br />
+                    <input id="trackingNumber" type="text" placeholder="Enter up to 35 tracking numbers, seperated by commas." />
+                    <br /><br />
+                    <div class="line3buttons"> <input class="trkButton" type="button" value="Track Package" /></div>
+                </div>
+                <div class="skewWrapper">
+                    <div class="trackMailColumn clkNship">
+                        <div class="unskewedContent">
+                            <h1 id="click"><span class="imgageIcon"><img src="uspsImages/clkNship.jpg" /></span>Click-N-Ship</h1>
+                            <p id="clickP">
+                                Create and print shipping<br /> labels with your USPS<span id="smbl">&#174</span>
+                                <br /> account.
+                            </p>
+                            <div class="line3buttons"><input class="trkButton" type="button" value="Creat a Label" /></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trackMailColumn stmpNsupp">
+                    <h1><span class="imgageIcon"><img src="uspsImages/stamp.jpg" /></span>Stamps and Supplies</h1>
+                    <p>Get supplies for your mailing and shipping<br /> needs.</p>
+                    <div class="line3buttons">
+                        <input class="trkButton" type="button" value="Buy Stamps" />
+                        <input class="trkButton" type="button" value="Order Boxes" />
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="bigPicsRow ">
+                <div class="bigPicsColumn">
+                    <div class="picOne">
+                        <h1 class="p1">PO Boxes<span class="tm">&#8482</span> Online</h1>
+                        <p class="regP">Find or renew a PO box<span class="tm">&#8482</span> online.</p>
+                        <p class="p2">Get a New PO Box &gt;</p>
+                        <p class="p2">Manage Your PO Box &gt;</p>
+                    </div>
+                </div>
+                <div class="bigPicsColumn">
+                    <div class="picTwo">
+                        <h1 class="p1">Apply for a Passport</h1>
+                        <p class="regP">Be Prepared. Save Time.</p>
+                        <p class="p2">Get a New Passport &gt;</p>
+                        <p class="p2">Renew Your Passport &gt;</p>
+                    </div>
+                </div>
+                <div class="bigPicsColumn">
+                    <div class="picThree">
+                        <h1 class="p1">Grow Your Business</h1>
+                        <p class="regP">
+                            Explore USPS<span class="tm">&#174</span> shipping and mailing solutions<br />
+                            that can help your business grow.
+                        </p>
+                        <p class="p2">Explore Service &gt;</p>
+                        <p class="p2">Every Door Direct Mail &gt;</p>
+                    </div>
+                </div>
+        </div>
+        <div class="lastPicRow">
+            <div class="imageContainer">
+                <img src="uspsImages/home-sweet-home.jpg" />
+                <h1 class="imageHeader">Preparing To Move?</h1>
+                <p class="imageParagraph">
+                    Change your address online in a few steps to make sure your<br /> mail follows you
+                    to the new place.<span class="lstWrds"> Get Started</span><span class="arrow"><b>&gt;</b></span>
+                </p>
+            </div>
+            <div class="imageContainer">
+                <img src="uspsImages/tax-day2.jpg" />
+                <h1 class="imageHeader">Tax Day is April 15</h1>
+                <p class="imageParagraph">
+                    Find the right USPS products and services to mail your
+                    tax return.<br /><span class="lstWrds">Go Now</span><span class="arrow"><b></b>&gt;</b></span>
+                </p>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <footer>
+                <div class="container">
+                    <h1 class="footHeader"> <span class="fab fa-usps"></span><b>USPS.COM</b></h1>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h2 class="linkHeader">HELPFUL LINKS</h2>
+                            <ul class="footList">
+                                <li>Contact Us</li>
+                                <li>Site Index</li>
+                                <li>FAQS</li>
+                            </ul>
+                            <h2 class="linkHeader">USPS JOBS</h2>
+                            <ul class="footList">
+                                <li>Careers</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="linkHeader">ON ABOUT.USPS.COM</h2>
+                            <ul class="footList">
+                                <li>About USPS Home</li>
+                                <li>Newsroom</li>
+                                <li>USPS Service Updates</li>
+                                <li>Forms & Publications</li>
+                                <li>Government Services</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="linkHeader"> OTHER USPS SITES</h2>
+                            <ul class="footList">
+                                <li> Business Customer Gateway</li>
+                                <li>Postal Inspectors</li>
+                                <li>Inspector General</li>
+                                <li>Postal Explorer</li>
+                                <li>National Postal Museum</li>
+                                <li>Resources for Developers</li>
+                                <li>PostalPro</li>
+                                <li>CyberSafe at USPS</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="linkHeader">LEGAL INFORMATION</h2>
+                            <ul class="footList">
+                                <li>Privacy Policy</li>
+                                <li>Terms of Use</li>
+                                <li>FOIA</li>
+                                <li>No FEAR Act EEO Data</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        Copyright &copy;2019 USPS. All Rights Reserved.
+                    </div>
+                    <div class="social">
+                        <hr />
+                        <i class="fab fa-facebook-square" style="color:#3b579d;"></i>
+                        <i class="fab fa-twitter" style="color:#1da1f2;"></i>
+                        <i class="fab fa-pinterest" style="color:#cb2027;"></i>
+                        <i class="fab fa-youtube" style="color:#d22321;"></i>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="feedback">
+            <input class="feedbackButton" type="button" value="Feedback" />
+        </div>
+    </div>
+</body>
+</html>

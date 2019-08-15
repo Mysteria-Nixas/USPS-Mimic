@@ -1,0 +1,532 @@
+﻿@font-face {
+    font-family: 'fontawesome-webfont';
+    src: url('fonts/webfonts/fa-regular-400.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'fontawesome-webfont';
+    src: url('fonts/webfonts/fa-regular-400.ttf') format('truetype');
+}
+
+[class*="fa-"]:before {
+    font-family: "fontawesome-webfont", sans-serif;
+}
+
+body {
+    background-color: #fff;
+    font-family:"HelveticaNeueW02-65Medi", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.fullPage {
+    display: block;
+    max-width: 100%;
+}
+
+.topNav {
+    display: block;
+    max-width: 100%;
+    background-color: #fff;
+    text-align: right;
+}
+
+.navLink {
+    height:30px;
+    margin-right: 10%;
+}
+
+
+.navLinkPic {
+    display: inline-block;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    top: 20%;
+    right: -.5%;
+}
+
+.navLinkText {
+    display: inline-block;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    top: 22%;
+    height: 20px;
+    font-size: x-small;
+    color: #575757;
+    margin: 0 15px 0 5px;
+}
+
+.uspsLogoLine {
+    display: block;
+    height: 50px;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+#logoList {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    background-color: #d8d8d8;
+    
+}
+
+.logoListPic {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    margin: 0;
+    background-color: #fff;
+}
+
+.quickTools {
+    display: inline-block;
+    background-color: #303064;
+    color: #fff;
+    transform: skew(-12deg,0deg);
+    -webkit-transform: skew(-12deg,0deg);
+    transform-origin: 0 35%;
+    width: 10%;
+    text-align: center;
+    font-size: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    background-position: center;
+    top: 36%;
+    height: 50px;
+    margin: 0;
+    border-right: 5px solid #e71921;
+}
+
+    .quickTools:hover {
+        background-color: #f1f6fa;
+        color: #303064;
+    }
+
+
+
+.logoListText {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    background-position: center;
+    top: 36%;
+    height: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    width: 11%;
+    color: #333366;
+    margin: 0;
+    border: none;
+    transform: skew(-12deg,0deg);
+    -webkit-transform: skew(-12deg,0deg);
+    transform-origin: 0 35%;
+}
+
+    .logoListText:hover {
+        background-color: #f1f6fa;
+    }
+
+.logoListSearch {
+    display: inline-block;
+    text-align: center;
+    background-color: #d8d8d8;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-position: center;
+    height: 50px;
+    font-weight: bold;
+    width: 5%;
+    color: #333366;
+}
+
+    .logoListSearch:hover {
+        background-color: #f1f6fa;
+    }
+
+.backgroundImageWithMan {
+    display: block;
+    min-height: 300px;
+    width: 100%;
+    background-color: #f2f7fa;
+    background-image: url("uspsImages/homepage-premium-id-man.jpg");
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible;
+}
+
+.manImageText {
+    margin-left: 50%;
+    display: block;
+    height: 100%;
+    color: #333366;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+    .manImageText > h1 {
+        margin-bottom: 10px;
+        margin-top: 0;
+        font-size: 35px
+    }
+
+    .manImageText > p {
+        margin-top: 2px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: lighter;
+    }
+
+    .manImageText > p2 {
+        font-size: 12px;
+        margin-bottom: 10px;
+        font-weight: lighter;
+    }
+
+#signUp {
+    background: #333366;
+    color: #fff;
+    height: 35px;
+    width: 130px;
+    border: none;
+}
+
+    #signUp:hover {
+        background-color: #d8d8d8;
+        color: #333366;
+    }
+
+/*Mail Form*/
+#mailingForm {
+    display: table;
+    width: 100%;
+    text-align: center;
+    color: #333366;
+}
+
+.trackMailRow {
+    display: block;
+    background-color: #f7f7f7;
+    width:100%;
+    min-height:220px;
+}
+
+.trackMailColumn {
+    float: left;
+    width: 32.04%;
+    padding: 10px;
+    min-width: 350px;
+    background-color: #f7f7f7;
+}
+
+#track{
+    margin-bottom:5px;
+}
+
+.imgageIcon >img {
+    vertical-align:bottom;
+}
+
+.trkMail {
+    height: 220px;
+}
+
+#trackingNumber {
+    font-size: 10px;
+    width: 55%;
+    height: 30px;
+    text-align: center;
+
+}
+
+.trkButton {
+    background: #333366;
+    color: #fff;
+    height: 35px;
+    width: 130px;
+    border: none;
+}
+
+    .trkButton:hover {
+        background-color: #d8d8d8;
+        color: #333366;
+    }
+
+.skewWrapper {
+    transform: skew(-12deg,0deg);
+    -webkit-transform: skew(-12deg,0deg);
+    }
+
+.unskewedContent {
+    transform: skew(12deg,0deg);
+    -webkit-transform: skew(12deg,0deg);
+}
+
+.preSkew {
+    transform: skew(12deg,0deg);
+    -webkit-transform: skew(12deg,0deg);
+}
+.preSkew::before {
+    transform: skew(12deg,0deg);
+    -webkit-transform: skew(12deg,0deg);
+}
+
+.preSkew::after {
+    transform: skew(-12deg,0deg);
+    -webkit-transform: skew(-12deg,0deg);
+}
+
+.preSkewTheOtherWay {
+    transform: skew(12deg,0deg);
+    -webkit-transform: skew(12deg,0deg);
+}
+
+.clkNship {
+    background-color: #fff;
+    /*transform: skew(-12deg,0deg);
+    -webkit-transform: skew(-12deg,0deg);
+    transform-origin: 0 35%;*/
+    text-transform: none;
+    position: relative;
+    z-index: 1;
+    height: 220px;
+}
+
+#click {
+        margin-bottom: 5px;
+    }
+
+#clickP {
+    font-size: 15px;
+    margin:0;
+}
+
+#smbl {
+    font-size: 11px;
+    vertical-align: super;
+}
+
+.stmpNsupp {
+    height: 220px;
+}
+
+.line3buttons{
+    display:block;
+}
+
+
+.bigPicsRow{
+    width: 150%;
+    height: 500px;
+    top: 0;
+    left: -20%;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+.bigPicsRow {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-family: HelveticaNeueW02-75Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    overflow:hidden;
+}
+
+.bigPicsColumn {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 500px;
+    top: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.bigPicsColumn {
+    display:table-cell;
+    float: left;
+    width: 33.333%;
+    position:relative;
+}
+
+.picOne {
+    border: none;
+    background-image: url("uspsImages/pic1.jpg");
+    background-position:right bottom;
+    min-height: 500px;
+    max-width: 100%;
+    z-index: 2;
+    border: none;
+    margin: 0 auto;
+}
+
+.tm{
+    font-size:11px;
+    vertical-align:super;
+}
+
+.p1 {
+    display: inline-block;
+    margin-top: 30%;
+    color: #fff;
+    font-weight: bold;
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.regP {
+    display: block;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.p2{
+    font-weight:bold;
+    font-size:21px;
+    color:#fff;
+    margin:0 0 7px 10px;
+}
+
+.picTwo {
+    border: none;
+    background-image: url("uspsImages/pic2.jpg");
+    background-position: center;
+    min-height: 500px;
+    max-width: 100%;
+    z-index: -1;
+    border: none;
+    margin: 0 auto;
+}
+
+.picThree {
+    border: none;
+    background-image: url("uspsImages/pic3.jpg");
+    background-position: center;
+    min-height: 500px;
+    max-width:100%;
+    z-index: 2;
+    border: none;
+    margin: 0 auto;}
+
+.lastPicRow{
+    display:block;
+    margin-left:12%;
+    margin-top:30px;
+}
+
+.imageContainer {
+    display: inline-block;
+    padding:20px;
+}
+
+.imageHeader {
+    font-weight: bold;
+    font-size: 25px;
+    color: #333366;
+    text-align:left;
+}
+
+.imageParagraph {
+    font-weight: lighter;
+    font-size: 15px;
+    color: #595959;
+    text-align:left;
+    line-height:25px;
+}
+
+.lstWrds {
+    font-weight:bold;
+    font-size:15px;
+    color: #333366;
+}
+
+.arrow{
+    color:red;
+}
+
+footer {
+    background-color: #f7f7f7;
+    border-top: 1px solid #dadada;
+}
+
+.footRow {
+    display: table;
+    width: 100%;
+    text-align:left;
+    padding:30px;
+}
+
+
+.footHeader {
+    font-size: 22px;
+    font-style: italic;
+    color: #333366;
+    margin-left:40px;
+}
+
+.linkHeader {
+    margin-bottom: 10px;
+    font-size: 11px;
+    margin-left: 40px;
+    color: #333366;
+}
+
+
+.footColumn {
+    display: inline-block;
+    float: left;
+    width: 33.33%;
+    vertical-align:top;
+}
+
+.footList {
+    list-style-type: none;
+    font-size:11px;
+}
+
+.copyright{
+    font-size:11px;
+    margin-left:40px;
+}
+
+.social{
+    font-size:60px;
+    margin-left:40px;
+}
+
+.feedback {
+    position: fixed;
+    bottom: 50%;
+    right: 0;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin: 0px;
+    z-index: 15;
+    border-radius: 5px 5px 0px 0px;
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform-origin: bottom right;
+    position: fixed;
+    right: 0px;
+}
+
+.feedbackButton {
+    color: #fff;
+    display: inline-block;
+    line-height: 35px;
+    background: #333366;
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    border:none;
+    width:120px;
+}
